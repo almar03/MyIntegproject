@@ -1,0 +1,166 @@
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('pink-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #4A4A4A; /* Neutral dark gray for text */
+}
+
+/* Header */
+header {
+    background: rgba(255, 192, 203, 0.8); /* Soft pink overlay */
+    text-align: center;
+    padding: 20px 0;
+    color: #4A4A4A;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #3D3D3D; /* Slightly darker gray for contrast */
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 5px 0 0;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Form */
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: left;
+}
+
+form h2 {
+    font-size: 2rem;
+    color: #3D3D3D;
+    margin-bottom: 10px;
+}
+
+form .form-group {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #4A4A4A;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form input:focus {
+    border-color: #FF69B4; /* Vibrant pink for focus */
+    outline: none;
+}
+
+form button {
+    background: #FF69B4; /* Vibrant pink */
+    color: #FFF;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #FF85C0; /* Lighter pink for hover */
+}
+
+/* Error Message */
+.error {
+    color: #FF6B6B; /* Muted red for errors */
+    background: #FFECEC; /* Light pinkish background */
+    padding: 10px;
+    border: 1px solid #FF6B6B;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #FF69B4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #FF85C0; /* Softer pink for hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: rgba(255, 192, 203, 0.8); /* Soft pink overlay */
+    color: #3D3D3D;
+    font-size: 0.9rem;
+    margin-top: 325px;
+}
+
+/* Team Member Cards */
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.team-member {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+    border: 1px solid #EEE;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.team-member h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #3D3D3D;
+}
+
+.team-member p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #4A4A4A;
+}
